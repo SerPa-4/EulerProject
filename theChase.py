@@ -76,7 +76,7 @@ print(average(dice), variance(dice))
 
 total_games = []
 losers = []
-for i in range(10000):
+for i in range(1000):
     #0 --> no dice
     players = [0]*100
     #players sit in circle
